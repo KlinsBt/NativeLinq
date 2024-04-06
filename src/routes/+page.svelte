@@ -5,8 +5,8 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>NativeLinq</title>
+	<meta name="description" content="NativeLinq homepage" />
 </svelte:head>
 
 <img src={leftLogo} alt="Left Logo" id="left-logo"/>
@@ -92,6 +92,7 @@
 		display: flex;
 		justify-content: center;
 		margin: 50px 0px;
+		z-index: 2;
 	}
 
 	button {
