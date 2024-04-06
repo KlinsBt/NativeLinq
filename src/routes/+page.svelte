@@ -43,8 +43,9 @@
 		position: relative;
 		display: grid;
 		justify-items: center;
-		padding: 0px 25px;
 		height: auto;
+		background-color: #f9f9fa;
+		width: 100%;
 	}
 
 	#left-logo {
@@ -53,6 +54,7 @@
 		left: -450px;
 		max-width: 600px;
 		transform: scaleX(-1);
+		z-index: 2;
 	}
 
 	#right-logo {
@@ -63,21 +65,33 @@
 		transform: rotate(30deg);
 	}
 
-	h1 {
+	section > h1 {
 		width: 100%;
 		margin: 100px 0px 40px 0px;
+		padding: 0px 25px;
 	}
 
 	.info-box {
 		display: grid;
+		justify-items: center;
+		padding: 50px 25px;
+		background-color: white;
+		width: 100%;
+	}
+
+	.info-box > h1 {
 		max-width: 600px;
-		margin: 50px 0px 0px 0px;
+	}
+
+	.info-box > p {
+		max-width: 600px;
+		padding: 0px 25px;
 	}
 
 	.contact-button-container {
 		display: flex;
 		justify-content: center;
-		margin: 100px 0px;
+		margin: 50px 0px;
 	}
 
 	button {

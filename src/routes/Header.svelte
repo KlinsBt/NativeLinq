@@ -34,7 +34,7 @@
 		flex-wrap: wrap;
 		justify-content: space-between;
 		width: 100%;
-		padding: 5% 7% 0px 7%;
+		padding: 5% 7% 2% 7%;
 	}
 
 	#logo-container {

@@ -1,4 +1,5 @@
 <script>
+    let year = new Date().getFullYear();
 
 </script>
 
@@ -7,7 +8,7 @@
 
 
 <footer>
-    <p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+    <p>Copyright © {year} - NativeLinq</p>
 </footer>
 
 
@@ -23,10 +24,6 @@ footer {
     align-items: center;
     padding: 12px;
     z-index: 1;
-}
-
-footer a {
-    font-weight: bold;
 }
 
 @media (min-width: 480px) {
