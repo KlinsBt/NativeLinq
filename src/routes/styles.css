@@ -1,0 +1,59 @@
+
+@font-face{
+	font-family: "FigtreeExtraBold";
+	src: url("../src/lib/fonts/webfonts/Figtree-ExtraBold.woff2") format("woff2");
+}
+
+@font-face{
+	font-family: "FigtreeBold";
+	src: url("../src/lib/fonts/webfonts/Figtree-Bold.woff2") format("woff2");
+}
+
+@font-face{
+	font-family: "FigtreeRegular";
+	src: url("../src/lib/fonts/webfonts/Figtree-Regular.woff2") format("woff2");
+}
+
+:root {
+	--font-body: FigtreeRegular, "Segoe UI", "Helvetica Neue", sans-serif;
+	--brand-color-1: #FF855A;
+	--brand-color-2: #635EEE;
+	--brand-color-3: #3C3066;
+	--brand-color-4: #FFED99;
+	--brand-color-5: #FFFFFF;
+	--brand-color-6: #000000;
+	font-family: var(--font-body);
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: var(--brand-color-2);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: FigtreeExtraBold, "Segoe UI", "Helvetica Neue", sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: var(--brand-color-3);
+}
+
+h2 {
+	font-family: FigtreeBold, "Segoe UI", "Helvetica Neue", sans-serif;
+	font-size: 25px;
+	color: var(--brand-color-6);
+}
+
+p {
+	font-family: FigtreeRegular, "Segoe UI", "Helvetica Neue", sans-serif;
+	font-size: 14px;
+	color: var(--brand-color-6);
+}
