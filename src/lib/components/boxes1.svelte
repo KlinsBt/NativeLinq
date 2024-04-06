@@ -27,7 +27,7 @@
         </div>
         <h2>Preparacion de examenes</h2>
         <p>
-            Preperacion experta para cualquier examen: de A1 hasta 
+            Preparacion experta para cualquier examen: de A1 hasta 
             C2. Aprende con los mejores profesores y asegure tu futuro.
         </p>
     </div>
@@ -37,7 +37,7 @@
         </div>
         <h2>Metodo nativo</h2>
         <p>
-            Apremder como aprenden los nativos: sin libros de texto ni 
+            Aprender como aprenden los nativos: sin libros de texto ni 
             ejercicios de gramática. Aprender Ingles util y practico, hacia 
             clases de conversacion con hablantes nativos.
         </p>

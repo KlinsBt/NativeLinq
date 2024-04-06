@@ -22,8 +22,8 @@
 	<div class="info-box">
 		<h1>Por Que Somos Distintos?</h1>
 		<p>
-			NativeLiq fue creado por dos profesores de Ingles, y creamos en el Metodo 
-			Nativo. Aprender en el colegio ayudara solo hasta cierto punto, Para asegurar 
+			NativeLinq fue creado por dos profesores de Ingles, y creamos en el Metodo 
+			Nativo. Aprender en el colegio ayudara solo hasta cierto punto. Para asegurar 
 			el futuro de tu hijo/a en un mundo cada vez mas internacional, hace falta algo 
 			mas. Con el metodo nativo, los ninos aprenden de la misma manera que los hablantes 
 			nativos: hacia juegos, conversacion, y temas importantes para ellos.
