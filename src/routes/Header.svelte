@@ -12,9 +12,6 @@
 				<a href="/">Contactar</a>
 			</li>
 			<li>
-				<a href="/">FAQs</a>
-			</li>
-			<li>
 				<a href="/">Quien somos</a>
 			</li>
 		</ul>
@@ -34,7 +31,7 @@
 		flex-wrap: wrap;
 		justify-content: space-between;
 		width: 100%;
-		padding: 5% 7% 2% 7%;
+		padding: 20px 7% 2% 7%;
 	}
 
 	#logo-container {

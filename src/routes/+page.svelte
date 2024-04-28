@@ -2,16 +2,36 @@
 	import Boxes from "$lib/components/boxes1.svelte";
 	import leftLogo from "$lib/images/brand icons/i13.svg";
 	import rightLogo from "$lib/images/brand icons/i14.svg";
+	import Box1 from "$lib/components/infobox1.svelte";
+	import LandingPage from "$lib/components/landingpage.svelte";
+	import Box2 from "$lib/components/img-boxes1.svelte";
 </script>
 
 <svelte:head>
 	<title>NativeLinq</title>
 	<meta name="description" content="NativeLinq homepage" />
+	<meta name="keywords" content="NativeLinq, English, Spanish, learning, children" />
+	<meta name="author" content="NativeLinq" />
+	<meta name="theme-color" content="#f9f9fa" />
+	<link rel="icon" type="image/png" href="/favicon.png" />
+
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Aprender inglés con profesores experimentados.">
+	<meta property="og:url" content="https://www.nativelinq.com/">
+	<meta property="og:description" 
+	content="NativeLinq fue creado por dos profesores de Ingles, y creamos en el Metodo Nativo. 
+	Aprender en el colegio ayudara solo hasta cierto punto. Para asegurar el futuro de tu hijo/a 
+	en un mundo cada vez mas internacional, hace falta algo mas. Con el metodo nativo, los ninos 
+	aprenden de la misma manera que los hablantes nativos: hacia juegos, conversacion, y temas 
+	importantes para ellos.">
+	<meta property="og:image" content="/favicon.png">
 </svelte:head>
 
 <img src={leftLogo} alt="Left Logo" id="left-logo"/>
 
 <section>
+
+	<LandingPage />
 
 	<h1>
 		Lo Que Ofrecemos
@@ -19,19 +39,14 @@
 
 	<Boxes />
 
-	<div class="info-box">
-		<h1>Por Que Somos Distintos?</h1>
-		<p>
-			NativeLinq fue creado por dos profesores de Ingles, y creamos en el Metodo 
-			Nativo. Aprender en el colegio ayudara solo hasta cierto punto. Para asegurar 
-			el futuro de tu hijo/a en un mundo cada vez mas internacional, hace falta algo 
-			mas. Con el metodo nativo, los ninos aprenden de la misma manera que los hablantes 
-			nativos: hacia juegos, conversacion, y temas importantes para ellos.
-		</p>
-	</div>
+	<div style="height: 50px;"></div>
+
+	<Box2 />
+	
+	<Box1 />
 
 	<div class="contact-button-container">
-		<button>Contactar</button>
+		<a href="mailto:hello@nativelinq.com">Contactar</a>
 	</div>
 
 </section>
@@ -71,23 +86,6 @@
 		padding: 0px 25px;
 	}
 
-	.info-box {
-		display: grid;
-		justify-items: center;
-		padding: 50px 25px;
-		background-color: white;
-		width: 100%;
-	}
-
-	.info-box > h1 {
-		max-width: 600px;
-	}
-
-	.info-box > p {
-		max-width: 600px;
-		padding: 0px 25px;
-	}
-
 	.contact-button-container {
 		display: flex;
 		justify-content: center;
@@ -95,7 +93,7 @@
 		z-index: 2;
 	}
 
-	button {
+	.contact-button-container > a {
 		font-family: FigtreeExtraBold, "Segoe UI", "Helvetica Neue", sans-serif;
 		font-size: 25px;
 		text-align: center;
@@ -107,14 +105,15 @@
 		border-radius: 30px;
 		cursor: pointer;
 		text-transform: uppercase;
+		text-decoration: none;
 	}
 
-	button:hover {
+	.contact-button-container > a:hover {
 		background-color: var(--brand-color-3);
 		color: white;
 	}
 
-	button:active {
+	.contact-button-container > a:active {
 		transform: scale(0.95);
 	}
 

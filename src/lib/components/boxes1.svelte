@@ -1,7 +1,7 @@
 <script>
-    import icon1 from "$lib/images/icon5.png";
-    import icon2 from "$lib/images/icon3.png";
-    import icon3 from "$lib/images/icon4.png";
+    import icon1 from "$lib/images/libro-abierto2.png";
+    import icon2 from "$lib/images/chat.png";
+    import icon3 from "$lib/images/usuarios.png";
 </script>
 
 
@@ -79,7 +79,7 @@
 }
 
 .box:nth-child(1) > .box-img-container {
-    background-color: rgb(252 131 89);
+    background-color: rgba(252, 130, 89);
 }
 
 .box:nth-child(2) > .box-img-container {
