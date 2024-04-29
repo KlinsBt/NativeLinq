@@ -64,7 +64,7 @@ import c11 from "../images/carousel/i11.png";
 }
 
 .img-container > h1 {
-    font-family: KristenITC, "Segoe UI", "Helvetica Neue", sans-serif;
+    font-family: cursive;
     font-size: 50px;
     color: black;
     position: absolute;
@@ -239,9 +239,9 @@ import c11 from "../images/carousel/i11.png";
     }
 
     .img-container > h1 {
-        font-size: 45px;
-        top: 270px;
-        left: 10px;
+        font-size: 50px;
+        top: 250px;
+        left: 20px;
         max-width: 450px;
     }
 

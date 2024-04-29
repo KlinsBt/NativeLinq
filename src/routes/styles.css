@@ -16,7 +16,7 @@
 
 @font-face{
 	font-family: "KristenITC";
-	src: url("../src/lib/fonts/Kristen ITC.woff") format("woff");
+	src: url("../src/lib/fonts/kristen-itc.ttf") format("ttf");
 }
 
 :root {
