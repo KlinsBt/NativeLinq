@@ -42,7 +42,7 @@ import c11 from "../images/carousel/i11.png";
 
 
 <style>
-    
+
 .content {
     position: relative;
     display: grid;
@@ -64,7 +64,7 @@ import c11 from "../images/carousel/i11.png";
 }
 
 .img-container > h1 {
-    font-family: Kristen ITC;
+    font-family: KristenITC;
     font-size: 50px;
     color: black;
     position: absolute;
