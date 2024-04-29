@@ -133,7 +133,7 @@ import c11 from "../images/carousel/i11.png";
     position: absolute;
     top: 220px;
     left: 110px;
-    animation: tilt2 12s infinite linear;
+    animation: tilt2 11s infinite linear;
 }
 
 #c5 {
@@ -151,7 +151,7 @@ import c11 from "../images/carousel/i11.png";
     position: absolute;
     top: 150px;
     left: 280px;
-    animation: tilt2 12s infinite linear;
+    animation: tilt2 9s infinite linear;
 }
 
 #c7 {
@@ -248,11 +248,42 @@ import c11 from "../images/carousel/i11.png";
         left: 70px;
     }
 
+    #c1 {
+        width: 170px;
+        top: 50%;
+        left: 25px;
+    }
+
+    #c2 {
+        width: 130px;
+        top: 72%;
+        left: 20%;
+    }
+
     #c4 {
         width: 140px;
         top: 20px;
         left: 80px;
     }
+
+    #c6 {
+        width: 150px;
+        top: 18%;
+        left: 60%;
+    }
+
+    #c8 {
+        width: 150px;
+        top: 45%;
+        left: 280px;
+    }
+
+    #c11 {
+        width: 120px;
+        top: -10px;
+        left: 255px;
+    }
+
 }
 
 @media (min-width: 545px) and (max-width: 579px) {
@@ -277,10 +308,44 @@ import c11 from "../images/carousel/i11.png";
         padding: 0px;
     }
 
+    #c1 {
+        width: 170px;
+        top: 50%;
+        left: 25px;
+    }
+
+    #c2 {
+        width: 130px;
+        top: 72%;
+        left: 20%;
+    }
+
     #c4 {
         width: 140px;
         top: 20px;
         left: 80px;
+    }
+
+    #c6 {
+        width: 150px;
+        top: 18%;
+        left: 60%;
+    }
+
+    #c8 {
+        width: 150px;
+        top: 45%;
+        left: 280px;
+    }
+
+    #c11 {
+        width: 120px;
+        top: -10px;
+        left: 255px;
+    }
+
+    #c3, #c5, #c7, #c9, #c10 {
+        display: none;
     }
 }
 
@@ -306,10 +371,44 @@ import c11 from "../images/carousel/i11.png";
         width: 100%;
     }
 
+    #c1 {
+        width: 170px;
+        top: 50%;
+        left: 25px;
+    }
+
+    #c2 {
+        width: 130px;
+        top: 72%;
+        left: 90px;
+    }
+
     #c4 {
         width: 140px;
         top: 20px;
         left: 80px;
+    }
+
+    #c6 {
+        width: 150px;
+        top: 18%;
+        left: 60%;
+    }
+
+    #c8 {
+        width: 150px;
+        top: 45%;
+        left: 280px;
+    }
+
+    #c11 {
+        width: 120px;
+        top: -10px;
+        left: 255px;
+    }
+
+    #c3, #c5, #c7, #c9, #c10 {
+        display: none;
     }
 }
 
@@ -329,16 +428,50 @@ import c11 from "../images/carousel/i11.png";
 
     .img-container > h1 {
         font-size: 40px;
-        top: 280px;
+        top: 270px;
         left: 0px;
         width: 100%;
         padding: 0px;
+    }
+
+    #c1 {
+        width: 170px;
+        top: 50%;
+        left: 25px;
+    }
+
+    #c2 {
+        width: 130px;
+        top: 72%;
+        left: 90px;
     }
 
     #c4 {
         width: 140px;
         top: 20px;
         left: 80px;
+    }
+
+    #c6 {
+        width: 150px;
+        top: 18%;
+        left: 60%;
+    }
+
+    #c8 {
+        width: 150px;
+        top: 45%;
+        left: 280px;
+    }
+
+    #c11 {
+        width: 120px;
+        top: -10px;
+        left: 255px;
+    }
+
+    #c3, #c5, #c7, #c9, #c10 {
+        display: none;
     }
 }
 
@@ -364,10 +497,44 @@ import c11 from "../images/carousel/i11.png";
         padding: 0px;
     }
 
+    #c1 {
+        width: 170px;
+        top: 50%;
+        left: 25px;
+    }
+
+    #c2 {
+        width: 130px;
+        top: 72%;
+        left: 90px;
+    }
+
     #c4 {
         width: 140px;
         top: 20px;
         left: 80px;
+    }
+
+    #c6 {
+        width: 150px;
+        top: 18%;
+        left: 60%;
+    }
+
+    #c8 {
+        width: 150px;
+        top: 45%;
+        left: 280px;
+    }
+
+    #c11 {
+        width: 120px;
+        top: -10px;
+        left: 255px;
+    }
+
+    #c3, #c5, #c7, #c9, #c10 {
+        display: none;
     }
 }
 /************************ Width Optimizations End *********************************************/
@@ -415,10 +582,37 @@ import c11 from "../images/carousel/i11.png";
         padding: 0px;
     }
 
+    #c1 {
+        width: 140px;
+        top: 50%;
+    }
+
+    #c2 {
+        width: 120px;
+        top: 72%;
+        left: 20%;
+    }
+
     #c4 {
         width: 140px;
-        top: 20px;
+        top: 2%;
         left: 80px;
+    }
+
+    #c6 {
+        width: 150px;
+        top: 18%;
+        left: 60%;
+    }
+
+    #c11 {
+        width: 120px;
+        top: -10px;
+        left: 255px;
+    }
+
+    #c3, #c5, #c7, #c8, #c9, #c10 {
+        display: none;
     }
 }
 
@@ -445,10 +639,38 @@ import c11 from "../images/carousel/i11.png";
         padding: 0px;
     }
 
+    #c1 {
+        width: 140px;
+        top: 50%;
+        left: 10px;
+    }
+
+    #c2 {
+        width: 130px;
+        top: 72%;
+        left: 20%;
+    }
+
     #c4 {
         width: 140px;
-        top: 20px;
+        top: 2%;
         left: 80px;
+    }
+
+    #c6 {
+        width: 150px;
+        top: 18%;
+        left: 60%;
+    }
+
+    #c11 {
+        width: 120px;
+        top: -10px;
+        left: 255px;
+    }
+
+    #c3, #c5, #c7, #c8, #c9, #c10 {
+        display: none;
     }
 }
 /************************ Height Optimizations End *********************************************/

@@ -1,5 +1,5 @@
 <script>
-	import logo from "$lib/images/brand icons/i8.svg";
+	import logo from "$lib/images/brand icons/i17.png";
 </script>
 
 <header>
