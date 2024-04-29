@@ -12,7 +12,7 @@
 				<a href="mailto:hello@nativelinq.com">Contactar</a>
 			</li>
 			<li>
-				<a href="/">Quien somos</a>
+				<a href="/quien-somos">Quien somos</a>
 			</li>
 		</ul>
 	</nav>
