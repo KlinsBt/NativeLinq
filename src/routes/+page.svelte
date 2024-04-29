@@ -24,7 +24,7 @@
 	<meta property="og:title" content="NativeLinq">
 	<meta property="og:image" content="{MainLogo}">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://native-linq.vercel.app/">
+	<meta property="og:url" content="https://www.nativelinq.com/">
 	<meta property="og:site_name" content="NativeLinq" />
 	<meta property="og:description" 
 	content="NativeLinq fue creado por dos profesores de Ingles, y creamos en el Metodo Nativo. 
