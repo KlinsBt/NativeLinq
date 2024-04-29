@@ -2,7 +2,8 @@
 // import img1 from "../images/bgs/img1.jpg";
 // import img2 from "../images/bgs/img2.jpg";
 // import img3 from "../images/bgs/img3.jpg";
-import img4 from "../images/bgs/kid-widescreen.png";
+import kid1 from "../images/bgs/kid-widescreen.png";
+import kid2 from "../images/bgs/kid-rectangle.png";
 import c1 from "../images/carousel/i1.png";
 import c2 from "../images/carousel/i2.png";
 import c3 from "../images/carousel/i3.png";
@@ -33,7 +34,8 @@ import c11 from "../images/carousel/i11.png";
         <img id="c9" src={c9} alt="Icon 9">
         <img id="c10" src={c10} alt="Icon 10">
         <img id="c11" src={c11} alt="Icon 11">
-        <img id="kid" src={img4} alt="1">
+        <img id="kid1" src={kid1} alt="1">
+        <img id="kid2" src={kid2} alt="2">
     </div>
 </div>
 
@@ -47,12 +49,16 @@ import c11 from "../images/carousel/i11.png";
     position: relative;
     display: grid;
     justify-items: center;
-    padding: 0px 25px;
+    padding: 0px 30px;
     background: #53c0d4;
     background: linear-gradient(42deg, rgba(83,192,212,1) 15%, rgba(132,208,224,1) 47%, rgba(164,223,241,1) 83%);
     width: 100%;
-    min-height: 900px;
+    /* min-height: 900px; */
     overflow: hidden;
+
+    height: 90vh;
+    height: 90dvh;
+    min-height: 550px;
 }
 
 .img-container {
@@ -71,13 +77,24 @@ import c11 from "../images/carousel/i11.png";
     font-weight: 800;
     position: absolute;
     top: 320px;
-    left: 300px;
+    left: 270px;
     padding: 0px 25px;
+    background-color: #f8f8f8;
+    z-index: 3;
 }
 
-#kid {
+#kid1 {
     position: absolute;
     width: 1500px;
+    height: auto;
+    bottom: 0px;
+    right: 0px;
+}
+
+#kid2 {
+    position: absolute;
+    display: none;
+    width: 400px;
     height: auto;
     bottom: 0px;
     right: 0px;
@@ -194,15 +211,35 @@ import c11 from "../images/carousel/i11.png";
   100% {transform: translate(0px, 0px);}
 }
 
+
+/************************ Width Optimizations *********************************************/
 @media (min-width: 935px) and (max-width: 1265px) {
-    #kid {
+    #kid1 {
         display: none;
+    }
+
+    #kid2 {
+        position: absolute;
+        display: block;
+        width: 550px;
+        height: auto;
+        bottom: 0px;
+        right: 0px;
     }
 }
 
 @media (min-width: 580px) and (max-width: 934px) {
-    #kid {
+    #kid1 {
         display: none;
+    }
+
+    #kid2 {
+        position: absolute;
+        display: block;
+        width: 500px;
+        height: auto;
+        bottom: 0px;
+        right: 0px;
     }
 
     .img-container > h1 {
@@ -219,14 +256,25 @@ import c11 from "../images/carousel/i11.png";
 }
 
 @media (min-width: 545px) and (max-width: 579px) {
-    #kid {
+    #kid1 {
         display: none;
+    }
+
+    #kid2 {
+        position: absolute;
+        display: block;
+        width: 500px;
+        height: auto;
+        bottom: 0px;
+        right: 0px;
     }
 
     .img-container > h1 {
         font-size: 50px;
         top: 270px;
-        left: 40px;
+        left: 0px;
+        width: 100%;
+        padding: 0px;
     }
 
     #c4 {
@@ -237,14 +285,25 @@ import c11 from "../images/carousel/i11.png";
 }
 
 @media (min-width: 510px) and (max-width: 545px) {
-    #kid {
+    #kid1 {
         display: none;
+    }
+
+    #kid2 {
+        position: absolute;
+        display: block;
+        width: 450px;
+        height: auto;
+        bottom: 0px;
+        right: 0px;
     }
 
     .img-container > h1 {
         font-size: 50px;
-        top: 250px;
-        left: 40px;
+        top: 280px;
+        left: 0px;
+        padding: 0px;
+        width: 100%;
     }
 
     #c4 {
@@ -254,35 +313,26 @@ import c11 from "../images/carousel/i11.png";
     }
 }
 
-@media (min-width: 0px) and (max-width: 510px) {
-    #kid {
+@media (min-width: 330px) and (max-width: 510px) {
+    #kid1 {
         display: none;
     }
 
-    .img-container > h1 {
-        font-size: 50px;
-        top: 300px;
-        left: 20px;
-        margin: 0px 10px;
-    }
-
-    #c4 {
-        width: 140px;
-        top: 20px;
-        left: 80px;
-    }
-}
-
-/* @media (min-width: 0px) and (max-width: 310px) {
-    #kid {
-        display: none;
+    #kid2 {
+        position: absolute;
+        display: block;
+        width: 350px;
+        height: auto;
+        bottom: 0px;
+        right: 0px;
     }
 
     .img-container > h1 {
         font-size: 40px;
-        top: 250px;
-        left: 20px;
-        max-width: 450px;
+        top: 280px;
+        left: 0px;
+        width: 100%;
+        padding: 0px;
     }
 
     #c4 {
@@ -290,6 +340,116 @@ import c11 from "../images/carousel/i11.png";
         top: 20px;
         left: 80px;
     }
-} */
+}
 
+@media (min-width: 0px) and (max-width: 330px) {
+    #kid1 {
+        display: none;
+    }
+
+    #kid2 {
+        position: absolute;
+        display: block;
+        width: 350px;
+        height: auto;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .img-container > h1 {
+        font-size: 30px;
+        top: 280px;
+        left: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    #c4 {
+        width: 140px;
+        top: 20px;
+        left: 80px;
+    }
+}
+/************************ Width Optimizations End *********************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************ Height Optimizations *********************************************/
+@media (min-width: 330px) and (max-width: 850px) and (max-height: 750px) {
+    #kid1 {
+        display: none;
+    }
+
+    #kid2 {
+        position: absolute;
+        display: block;
+        width: 350px;
+        height: auto;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .img-container > h1 {
+        font-size: 40px;
+        top: 170px;
+        top: 35%;
+        left: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    #c4 {
+        width: 140px;
+        top: 20px;
+        left: 80px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 330px) and (max-height: 750px) {
+    #kid1 {
+        display: none;
+    }
+
+    #kid2 {
+        position: absolute;
+        display: block;
+        width: 350px;
+        height: auto;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .img-container > h1 {
+        font-size: 30px;
+        top: 170px;
+        top: 35%;
+        left: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    #c4 {
+        width: 140px;
+        top: 20px;
+        left: 80px;
+    }
+}
+/************************ Height Optimizations End *********************************************/
 </style>
