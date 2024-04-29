@@ -14,6 +14,11 @@
 	src: url("../src/lib/fonts/webfonts/Figtree-Regular.woff2") format("woff2");
 }
 
+@font-face{
+	font-family: "Kristen ITC";
+	src: url("../src/lib/fonts/Kristen ITC.woff") format("woff");
+}
+
 :root {
 	--font-body: FigtreeRegular, "Segoe UI", "Helvetica Neue", sans-serif;
 	--brand-color-1: #FF855A;
