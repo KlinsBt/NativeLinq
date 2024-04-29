@@ -64,7 +64,7 @@ import c11 from "../images/carousel/i11.png";
 }
 
 .img-container > h1 {
-    font-family: cursive;
+    font-family: KristenITC, "Segoe UI", "Helvetica Neue", sans-serif;
     font-size: 50px;
     color: black;
     position: absolute;
@@ -233,13 +233,32 @@ import c11 from "../images/carousel/i11.png";
     }
 }
 
-@media (min-width: 0px) and (max-width: 545px) {
+@media (min-width: 310px) and (max-width: 545px) {
     #kid {
         display: none;
     }
 
     .img-container > h1 {
         font-size: 50px;
+        top: 250px;
+        left: 20px;
+        max-width: 450px;
+    }
+
+    #c4 {
+        width: 140px;
+        top: 20px;
+        left: 80px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 310px) {
+    #kid {
+        display: none;
+    }
+
+    .img-container > h1 {
+        font-size: 40px;
         top: 250px;
         left: 20px;
         max-width: 450px;
