@@ -9,7 +9,7 @@
 		</a>
 		<ul>
 			<li>
-				<a href="/">Contactar</a>
+				<a href="mailto:hello@nativelinq.com">Contactar</a>
 			</li>
 			<li>
 				<a href="/">Quien somos</a>

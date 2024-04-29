@@ -17,7 +17,7 @@
 
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Aprender inglés con profesores experimentados.">
-	<meta property="og:url" content="https://www.nativelinq.com/">
+	<meta property="og:url" content="https://native-linq.vercel.app/">
 	<meta property="og:description" 
 	content="NativeLinq fue creado por dos profesores de Ingles, y creamos en el Metodo Nativo. 
 	Aprender en el colegio ayudara solo hasta cierto punto. Para asegurar el futuro de tu hijo/a 

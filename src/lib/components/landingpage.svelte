@@ -215,7 +215,7 @@ import c11 from "../images/carousel/i11.png";
     }
 }
 
-@media (min-width: 0px) and (max-width: 579px) {
+@media (min-width: 545px) and (max-width: 579px) {
     #kid {
         display: none;
     }
@@ -223,7 +223,26 @@ import c11 from "../images/carousel/i11.png";
     .img-container > h1 {
         font-size: 50px;
         top: 270px;
+        left: 40px;
+    }
+
+    #c4 {
+        width: 140px;
+        top: 20px;
+        left: 80px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 545px) {
+    #kid {
+        display: none;
+    }
+
+    .img-container > h1 {
+        font-size: 45px;
+        top: 270px;
         left: 10px;
+        max-width: 450px;
     }
 
     #c4 {
