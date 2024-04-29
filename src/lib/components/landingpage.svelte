@@ -43,6 +43,11 @@ import c11 from "../images/carousel/i11.png";
 
 <style>
 
+@font-face{
+	font-family: "Kristen ITC";
+	src: url("../fonts/KristenITC Regular.otf") format("otf");
+}
+
 .content {
     position: relative;
     display: grid;

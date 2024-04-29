@@ -7,7 +7,7 @@
 	import Box2 from "$lib/components/img-boxes1.svelte";
 </script>
 
-<svelte:head>
+<!-- <svelte:head>
 	<title>NativeLinq</title>
 	<meta name="description" content="NativeLinq homepage" />
 	<meta name="keywords" content="NativeLinq, English, Spanish, learning, children" />
@@ -25,7 +25,7 @@
 	aprenden de la misma manera que los hablantes nativos: hacia juegos, conversacion, y temas 
 	importantes para ellos.">
 	<meta property="og:image" content="/favicon.png">
-</svelte:head>
+</svelte:head> -->
 
 <img src={leftLogo} alt="Left Logo" id="left-logo"/>
 
