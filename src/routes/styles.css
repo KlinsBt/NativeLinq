@@ -16,7 +16,7 @@
 
 @font-face{
 	font-family: "KristenITC";
-	src: url("../src/lib/fonts/Kristen ITC.woff2") format("woff2");
+	src: url("../src/lib/fonts/webfonts/Kristen-ITC.woff2") format("woff2");
 }
 
 :root {
@@ -45,7 +45,7 @@ a:hover {
 }
 
 h1 {
-	font-family: FigtreeExtraBold, "Segoe UI", "Helvetica Neue", sans-serif;
+	font-family: FigtreeExtraBold, KristenITC, "Segoe UI", "Helvetica Neue", sans-serif;
 	font-size: 40px;
 	text-align: center;
 	color: var(--brand-color-3);
