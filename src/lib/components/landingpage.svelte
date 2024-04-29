@@ -48,7 +48,7 @@ import c11 from "../images/carousel/i11.png";
     display: grid;
     justify-items: center;
     padding: 0px 25px;
-    background: rgb(83,192,212);
+    background: #53c0d4;
     background: linear-gradient(42deg, rgba(83,192,212,1) 15%, rgba(132,208,224,1) 47%, rgba(164,223,241,1) 83%);
     width: 100%;
     min-height: 900px;
@@ -64,9 +64,11 @@ import c11 from "../images/carousel/i11.png";
 }
 
 .img-container > h1 {
-    font-family: Windsor, "Segoe UI";
+    font-family: Windsor, FigtreeBold, "Segoe UI";
+    text-shadow: 0px 0px 5px #f8f8f8;
     font-size: 50px;
-    color: black;
+    color: rgb(5, 41, 95);
+    font-weight: 800;
     position: absolute;
     top: 320px;
     left: 300px;
@@ -241,8 +243,7 @@ import c11 from "../images/carousel/i11.png";
     .img-container > h1 {
         font-size: 50px;
         top: 250px;
-        left: 20px;
-        max-width: 450px;
+        left: 40px;
     }
 
     #c4 {
