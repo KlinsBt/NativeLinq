@@ -64,7 +64,7 @@ import c11 from "../images/carousel/i11.png";
 }
 
 .img-container > h1 {
-    font-family: Windsor, FigtreeBold, "Segoe UI";
+    font-family: FigtreeBold, "Segoe UI";
     text-shadow: 0px 0px 5px #f8f8f8;
     font-size: 50px;
     color: rgb(5, 41, 95);
@@ -72,6 +72,7 @@ import c11 from "../images/carousel/i11.png";
     position: absolute;
     top: 320px;
     left: 300px;
+    padding: 0px 25px;
 }
 
 #kid {
@@ -235,7 +236,7 @@ import c11 from "../images/carousel/i11.png";
     }
 }
 
-@media (min-width: 310px) and (max-width: 545px) {
+@media (min-width: 510px) and (max-width: 545px) {
     #kid {
         display: none;
     }
@@ -253,7 +254,26 @@ import c11 from "../images/carousel/i11.png";
     }
 }
 
-@media (min-width: 0px) and (max-width: 310px) {
+@media (min-width: 0px) and (max-width: 510px) {
+    #kid {
+        display: none;
+    }
+
+    .img-container > h1 {
+        font-size: 50px;
+        top: 300px;
+        left: 20px;
+        margin: 0px 10px;
+    }
+
+    #c4 {
+        width: 140px;
+        top: 20px;
+        left: 80px;
+    }
+}
+
+/* @media (min-width: 0px) and (max-width: 310px) {
     #kid {
         display: none;
     }
@@ -270,6 +290,6 @@ import c11 from "../images/carousel/i11.png";
         top: 20px;
         left: 80px;
     }
-}
+} */
 
 </style>
