@@ -19,10 +19,10 @@
 	<meta name="keywords" content="nativeLinq, english, epanish, learning, children" />
 	<meta name="author" content="NativeLinq" />
 	<meta name="theme-color" content="#f9f9fa" />
-	<link rel="icon" type="image/png" href="{MainLogo}" />
+	<link rel="icon" type="image/png" href="/favicon.png" />
 
 	<meta property="og:title" content="NativeLinq">
-	<meta property="og:image" content="{MainLogo}">
+	<meta property="og:image" content="/favicon.png">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://www.nativelinq.com/">
 	<meta property="og:site_name" content="NativeLinq" />
@@ -32,6 +32,16 @@
 	en un mundo cada vez mas internacional, hace falta algo mas. Con el metodo nativo, los ninos 
 	aprenden de la misma manera que los hablantes nativos: hacia juegos, conversacion, y temas 
 	importantes para ellos.">
+
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content="https://www.nativelinq.com/" />
+	<meta property="twitter:title" content="NativeLinq" />
+	<meta property="twitter:description" content="NativeLinq fue creado por dos profesores de Ingles, y creamos en el Metodo Nativo. 
+		Aprender en el colegio ayudara solo hasta cierto punto. Para asegurar el futuro de tu hijo/a 
+		en un mundo cada vez mas internacional, hace falta algo mas. Con el metodo nativo, los ninos 
+		aprenden de la misma manera que los hablantes nativos: hacia juegos, conversacion, y temas 
+		importantes para ellos." />
+	<meta property="twitter:image" content="/favicon.png" />
 
 </svelte:head>
 
