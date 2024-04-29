@@ -5,27 +5,35 @@
 	import Box1 from "$lib/components/infobox1.svelte";
 	import LandingPage from "$lib/components/landingpage.svelte";
 	import Box2 from "$lib/components/img-boxes1.svelte";
+	import MainLogo from "/favicon.png";
 </script>
 
-<!-- <svelte:head>
+<svelte:head>
 	<title>NativeLinq</title>
-	<meta name="description" content="NativeLinq homepage" />
-	<meta name="keywords" content="NativeLinq, English, Spanish, learning, children" />
+    <meta name="description" 
+	content="NativeLinq fue creado por dos profesores de Ingles, y creamos en el Metodo Nativo. 
+	Aprender en el colegio ayudara solo hasta cierto punto. Para asegurar el futuro de tu hijo/a 
+	en un mundo cada vez mas internacional, hace falta algo mas. Con el metodo nativo, los ninos 
+	aprenden de la misma manera que los hablantes nativos: hacia juegos, conversacion, y temas 
+	importantes para ellos.">
+	<meta name="keywords" content="nativeLinq, english, epanish, learning, children" />
 	<meta name="author" content="NativeLinq" />
 	<meta name="theme-color" content="#f9f9fa" />
-	<link rel="icon" type="image/png" href="/favicon.png" />
+	<link rel="icon" type="image/png" href="{MainLogo}" />
 
+	<meta property="og:title" content="NativeLinq">
+	<meta property="og:image" content="{MainLogo}">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Aprender inglés con profesores experimentados.">
 	<meta property="og:url" content="https://native-linq.vercel.app/">
+	<meta property="og:site_name" content="NativeLinq" />
 	<meta property="og:description" 
 	content="NativeLinq fue creado por dos profesores de Ingles, y creamos en el Metodo Nativo. 
 	Aprender en el colegio ayudara solo hasta cierto punto. Para asegurar el futuro de tu hijo/a 
 	en un mundo cada vez mas internacional, hace falta algo mas. Con el metodo nativo, los ninos 
 	aprenden de la misma manera que los hablantes nativos: hacia juegos, conversacion, y temas 
 	importantes para ellos.">
-	<meta property="og:image" content="/favicon.png">
-</svelte:head> -->
+
+</svelte:head>
 
 <img src={leftLogo} alt="Left Logo" id="left-logo"/>
 
