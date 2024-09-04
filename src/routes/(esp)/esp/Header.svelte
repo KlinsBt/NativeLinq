@@ -1,25 +1,43 @@
 <script>
-	import logo from "$lib/images/brand icons/i17.png";
+	// @ts-nocheck
+	import logo from '$lib/images/brand icons/i17.png';
+	import l from '$lib/i18-strings/lang.json';
+	import { goto } from '$app/navigation';
+
+	let lang = l['esp'];
+	let selected = '/esp';
+
+	function changeLanguage(langStr) {
+		goto(selected);
+	}
 </script>
 
 <header>
 	<nav>
-		<a href="/" id="logo-container">
+		<a href="/esp" id="logo-container">
 			<img src={logo} alt="Logo" />
 		</a>
 		<ul>
 			<li>
-				<a href="mailto:hello@nativelinq.com">Contactar</a>
+				<a href="mailto:hello@nativelinq.com">{lang.header.link1}</a>
 			</li>
 			<li>
-				<a href="/quien-somos">Quien somos</a>
+				<a href="/esp/about">{lang.header.link2}</a>
 			</li>
+			<select
+				name="/esp"
+				id="select-lang"
+				bind:value={selected}
+				on:change={() => changeLanguage(selected)}
+			>
+				<option value="/">Ingles</option>
+				<option value="/esp">Español</option>
+			</select>
 		</ul>
 	</nav>
 </header>
 
 <style>
-
 	header {
 		display: flex;
 		justify-content: space-between;
@@ -76,5 +94,22 @@
 
 	a:hover {
 		color: var(--brand-color-2);
+	}
+
+	#select-lang {
+		background-color: var(--brand-color-3);
+		border-radius: 10px;
+		border: 4px solid var(--brand-color-2);
+		color: var(--brand-color-1);
+		font-weight: 600;
+		font-size: 12px;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		padding: 5px;
+		cursor: pointer;
+	}
+
+	#select-lang:hover {
+		border: 4px solid var(--brand-color-1);
 	}
 </style>

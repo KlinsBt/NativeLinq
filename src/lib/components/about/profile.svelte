@@ -33,7 +33,7 @@ export let img_src = "";
   background-color: var(--brand-color-1);
   background-color: #f9f9fa;
   min-width: 280px;
-  min-height: 500px;
+  min-height: 475px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0px 0px 15px 1px rgb(179, 179, 179);
@@ -105,7 +105,7 @@ export let img_src = "";
 }
 
 .desc-text {
-  font-size: 15px;
+  font-size: 14px;
   margin: 15px 0px 0px 0px;
 }
 </style>

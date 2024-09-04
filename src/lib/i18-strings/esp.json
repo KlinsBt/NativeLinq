@@ -1,0 +1,33 @@
+{
+	"esp": {
+		"header": {
+			"link1": "Contactar",
+			"link2": "Quien Somos"
+		},
+		"sec-2": {
+			"title": "Lo Que Ofrecemos"
+		},
+		"landing-page": {
+			"main-title": "APRENDE INGLÉS"
+		},
+		"components": {
+			"what-we-offer-boxes": {
+				"box-1-title": "Aprendizaje Divertido",
+				"box-1-text": "En NativeLinq creemos que aprender Ingles debe ser divertido. Nuestros profesores tienen mucha energia y hacen juegos divertidos en Ingles para reforzar las habilidades de hablar de tu hijo.",
+				"box-2-title": "Preparacion De Examenes",
+				"box-2-text": "Preparacion experta para cualquier examen: de A1 hasta C2. Aprende con los mejores profesores y asegure tu futuro.",
+				"box-3-title": "Metodo Nativo",
+				"box-3-text": "Aprender como aprenden los nativos: sin libros de texto ni ejercicios de gramática. Aprender Ingles util y practico, hacia clases de conversacion con hablantes nativos."
+			},
+			"infobox-1": {
+				"title": "Por Que Somos Distintos?",
+				"text": "NativeLinq fue creado por dos profesores de Ingles, y creamos en el Metodo Nativo. Aprender en el colegio ayudara solo hasta cierto punto. Para asegurar el futuro de tu hijo/a en un mundo cada vez mas internacional, hace falta algo mas. Con el metodo nativo, los ninos aprenden de la misma manera que los hablantes nativos: hacia juegos, conversacion, y temas importantes para ellos."
+			},
+			"about-us-subpage": {
+				"pfp-text-denny": "Soy originaria de Alemania y tengo una licenciatura en Traducción Técnica y un máster por la Texas Tech University en Literatura y Lengua Alemana con especialización en Literatura Española. Me he especializado en la enseñanza de idiomas, la gestión de programas escolares y educativos, así como en el desarrollo de planes de estudio para idiomas y para niños con implantes cocleares colaborando con las instalaciones y el personal de alto nivel del Centro Educativo Sada de Kuwait.",
+				"pfp-text-cory": "Soy profesora de inglés y tutora certificada TEFL, con 5 años de experiencia enseñando el método NativeLinq. Soy originaria del Reino Unido, y completé tanto mi Licenciatura en Español y Filosofía, como mi Maestría en la Universidad de Leeds. Soy una ávida lectora, amante de la música y escritora, y también tengo amplia experiencia trabajando con niños y jóvenes con Necesidades Educativas Especiales, como TDAH y Autismo, proporcionándoles apoyo especializado 1:1."
+			}
+		},
+		"contact-button-bottom": "Contactar"
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"eng": {
+		"header": {
+			"link1": "Contact",
+			"link2": "About Us"
+		},
+		"landing-page": {
+			"main-title": "LEARN ENGLISH"
+		},
+		"sec-2": {
+			"title": "What We Offer"
+		},
+		"components": {
+			"what-we-offer-boxes": {
+				"box-1-title": "Fun Learning",
+				"box-1-text": "At NativeLinq we believe that learning English should be fun. Our teachers are energetic and play fun games in English to reinforce your child's speaking skills.",
+				"box-2-title": "Exam Preparation",
+				"box-2-text": "Expert preparation for any exam: from A1 to C2. Learn with the best teachers and secure your future.",
+				"box-3-title": "Native Method",
+				"box-3-text": "Learn the way native speakers learn: without textbooks or grammar exercises. Learn English in a practical and useful way, through conversation classes with native speakers."
+			},
+			"infobox-1": {
+				"title": "Why Are We Different?",
+				"text": "NativeLinq was created by two English teachers, and we believe in the Native Method. Learning at school will only help to a certain extent. To secure your child's future in an increasingly international world, something more is needed. With the native method, children learn in the same way as native speakers: through games, conversation, and topics that are important to them."
+			},
+			"about-us-subpage": {
+				"pfp-text-denny": "I am originally from Germany and have a B.A. in Technical Translation and an M.A. from Texas Tech University in German Literature & Language with a minor in Spanish Literature. I have specialized in language education, school and education program management as well as curriculum development for language and for children with cochlear implants collaborating with the high-end facilities and staff at Sada Educational Center in Kuwait.",
+				"pfp-text-cory": "I'm a TEFL certified English teacher and tutor, with 5 years of experience teaching the NativeLinq method. I'm originally from the UK, and I completed both my Bachelors Degree in Spanish and Philosophy, and Masters Degree at the University of Leeds. I'm an avid reader, music lover, and writer, and I also have extensive experience working with children and young people with Special Educational Needs, such as ADHD and Autism, providing them with 1:1 specialized support."
+			}
+		},
+		"contact-button-bottom": "Contact"
+	},
+	"esp": {
+		"header": {
+			"link1": "Contactar",
+			"link2": "Quien Somos"
+		},
+		"sec-2": {
+			"title": "Lo Que Ofrecemos"
+		},
+		"landing-page": {
+			"main-title": "APRENDE INGLÉS"
+		},
+		"components": {
+			"what-we-offer-boxes": {
+				"box-1-title": "Aprendizaje Divertido",
+				"box-1-text": "En NativeLinq creemos que aprender Ingles debe ser divertido. Nuestros profesores tienen mucha energia y hacen juegos divertidos en Ingles para reforzar las habilidades de hablar de tu hijo.",
+				"box-2-title": "Preparacion De Examenes",
+				"box-2-text": "Preparacion experta para cualquier examen: de A1 hasta C2. Aprende con los mejores profesores y asegure tu futuro.",
+				"box-3-title": "Metodo Nativo",
+				"box-3-text": "Aprender como aprenden los nativos: sin libros de texto ni ejercicios de gramática. Aprender Ingles util y practico, hacia clases de conversacion con hablantes nativos."
+			},
+			"infobox-1": {
+				"title": "Por Que Somos Distintos?",
+				"text": "NativeLinq fue creado por dos profesores de Ingles, y creamos en el Metodo Nativo. Aprender en el colegio ayudara solo hasta cierto punto. Para asegurar el futuro de tu hijo/a en un mundo cada vez mas internacional, hace falta algo mas. Con el metodo nativo, los ninos aprenden de la misma manera que los hablantes nativos: hacia juegos, conversacion, y temas importantes para ellos."
+			},
+			"about-us-subpage": {
+				"pfp-text-denny": "Soy originaria de Alemania y tengo una licenciatura en Traducción Técnica y un máster por la Texas Tech University en Literatura y Lengua Alemana con especialización en Literatura Española. Me he especializado en la enseñanza de idiomas, la gestión de programas escolares y educativos, así como en el desarrollo de planes de estudio para idiomas y para niños con implantes cocleares colaborando con las instalaciones y el personal de alto nivel del Centro Educativo Sada de Kuwait.",
+				"pfp-text-cory": "Soy profesora de inglés y tutora certificada TEFL, con 5 años de experiencia enseñando el método NativeLinq. Soy originaria del Reino Unido, y completé tanto mi Licenciatura en Español y Filosofía, como mi Maestría en la Universidad de Leeds. Soy una ávida lectora, amante de la música y escritora, y también tengo amplia experiencia trabajando con niños y jóvenes con Necesidades Educativas Especiales, como TDAH y Autismo, proporcionándoles apoyo especializado 1:1."
+			}
+		},
+		"contact-button-bottom": "Contactar"
+	}
+}
